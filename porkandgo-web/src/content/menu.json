@@ -1,0 +1,626 @@
+{
+  "source": "Transcribed from porkandgokenya.com/images/menu/*.webp on 2026-11-03. Prices in KSh. Verify with Pork & Go before launch.",
+  "currency": "KES",
+  "categories": [
+    {
+      "id": "platters",
+      "name": "Nyama Nyama Platters",
+      "note": "Every platter: choose Dry Fry, Wet Fry or Choma. Free juices / fizzy mojitos included.",
+      "items": [
+        {
+          "name": "Raha ya Wawili Platter",
+          "price": 1450,
+          "description": "1/2kg pork, 1/4 chicken or 1/4 rabbit (+200), chips, ugali",
+          "serves": 2,
+          "freeDrinks": 2
+        },
+        {
+          "name": "Snacky Platter",
+          "price": 1600,
+          "description": "1/2kg pork, 6pc chicken wings, chips, 2 samosas, 2 sausages, kachumbari",
+          "freeDrinks": 2
+        },
+        {
+          "name": "Snack Attack Platter",
+          "price": 1650,
+          "description": "Meatballs, 2 shawarma halves, 6pc chicken wings, chips, 2 samosas, 2 sausages, kachumbari",
+          "freeDrinks": 2
+        },
+        {
+          "name": "Choma Choma Platter",
+          "price": 2200,
+          "description": "1kg pork choma, 1/2 chicken choma or 1/2 rabbit (+350), kachumbari, ugali, pilau, chips",
+          "serves": 3,
+          "freeDrinks": 3
+        },
+        {
+          "name": "Bazuu Platter",
+          "price": 2750,
+          "description": "1kg pork, 1/2 chicken, 2 shawarmas, chips, pilau, ugali, chapati, kachumbari",
+          "freeDrinks": 4
+        },
+        {
+          "name": "Mbogi Platter",
+          "price": 3950,
+          "description": "1kg pork choma (ribs), 1/2kg pork (wet/dry fry), 1/2 chicken, chips, ugali, 12 sticky wings, chapati, kachumbari",
+          "freeDrinks": 5
+        },
+        {
+          "name": "Mega Platter",
+          "price": 4750,
+          "description": "1kg pork choma, full chicken, 12 sticky wings, chips, ugali, pilau, 4 sausages, chapatis, 4 shawarma halves, kachumbari",
+          "freeDrinks": 5
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "sections": [
+        {
+          "name": "Pork Flavours",
+          "sizes": [
+            "250g",
+            "500g",
+            "1kg"
+          ],
+          "items": [
+            {
+              "name": "Pork Wet Fry",
+              "prices": [
+                370,
+                650,
+                1190
+              ]
+            },
+            {
+              "name": "Pork Dry Fry",
+              "prices": [
+                370,
+                650,
+                1190
+              ]
+            },
+            {
+              "name": "Pork Choma (Sizzling)",
+              "prices": [
+                null,
+                650,
+                1190
+              ]
+            },
+            {
+              "name": "Pork Honey Glazed",
+              "prices": [
+                null,
+                690,
+                1250
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pork Combos",
+          "items": [
+            {
+              "name": "Breaded Pork Chops",
+              "price": 590
+            },
+            {
+              "name": "Spicy/BBQ Pork Ribs & Fries",
+              "price": 550
+            },
+            {
+              "name": "Honey Pork Chops & Fries",
+              "price": 550
+            },
+            {
+              "name": "Stir Fried Pork & Fries/Rice",
+              "price": 490
+            },
+            {
+              "name": "Noodles & Meatballs",
+              "price": 490
+            },
+            {
+              "name": "Pork Pilau",
+              "price": 490
+            },
+            {
+              "name": "Pork Chops & Fries/Ugali",
+              "price": 390
+            }
+          ]
+        },
+        {
+          "name": "Fish",
+          "items": [
+            {
+              "name": "Coconut Fish",
+              "price": 650
+            },
+            {
+              "name": "Fish Wet/Dry Fry",
+              "price": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-meat",
+      "name": "Chicken & Rabbit",
+      "sections": [
+        {
+          "name": "Chicken",
+          "sizes": [
+            "1/4",
+            "1/2",
+            "Full"
+          ],
+          "items": [
+            {
+              "name": "Chicken Dry Fry/Wet Fry",
+              "prices": [
+                390,
+                650,
+                1250
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chicken extras",
+          "items": [
+            {
+              "name": "Chicken Wings with Fries",
+              "price": 490
+            }
+          ]
+        },
+        {
+          "name": "Rabbit",
+          "items": [
+            {
+              "name": "Rabbit (Wet/Dry Fry) with Fries",
+              "price": 550,
+              "description": "Comes with free fizzy mojito / 350ml soda / ice cream"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Accompaniments",
+      "items": [
+        {
+          "name": "Kachumbari",
+          "price": 50
+        },
+        {
+          "name": "Guacamole",
+          "price": 100
+        },
+        {
+          "name": "Greens",
+          "price": 100
+        },
+        {
+          "name": "2 Sausages",
+          "price": 150
+        },
+        {
+          "name": "2 Samosa",
+          "price": 150
+        },
+        {
+          "name": "Ugali",
+          "price": 80
+        },
+        {
+          "name": "Masala Chips",
+          "price": 220
+        },
+        {
+          "name": "Chapati",
+          "price": 70
+        },
+        {
+          "name": "Chips",
+          "price": 150
+        },
+        {
+          "name": "Pilau Plain",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": "burgers-wraps",
+      "name": "Burgers & Wraps",
+      "note": "Each served with free fizzy mojito / 350ml soda / ice cream.",
+      "items": [
+        {
+          "name": "Shawarma Wrap with Fries",
+          "price": 390,
+          "description": "Spicy or regular"
+        },
+        {
+          "name": "Classic Burger + Fries",
+          "price": 390,
+          "description": "Juicy pork patty, lettuce, tomato slices and sauces"
+        },
+        {
+          "name": "Eggsperience Burger + Fries",
+          "price": 450,
+          "description": "Juicy pork patty, bull's-eye egg, lettuce, tomato slices and sauces"
+        },
+        {
+          "name": "Bacon Burger + Fries",
+          "price": 550,
+          "description": "Juicy pork patty, bacon strips, lettuce, tomato slices and sauces"
+        },
+        {
+          "name": "Double Gourmet Burger + Fries",
+          "price": 650,
+          "description": "Double juicy pork patty, bacon strips, lettuce, tomato slices and sauces"
+        }
+      ],
+      "extras": [
+        {
+          "name": "Guacamole (wrap extra)",
+          "price": 100
+        },
+        {
+          "name": "Cheese (burger extra)",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "sections": [
+        {
+          "name": "Fresh Juices",
+          "items": [
+            {
+              "name": "Mango Juice",
+              "price": 200
+            },
+            {
+              "name": "Passion Juice",
+              "price": 200
+            },
+            {
+              "name": "Cocktail Juice",
+              "price": 200
+            },
+            {
+              "name": "Apple Ginger",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "name": "Water",
+          "items": [
+            {
+              "name": "Water 500ml",
+              "price": 100
+            },
+            {
+              "name": "Water 1 litre",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "name": "Mocktails",
+          "items": [
+            {
+              "name": "Blue Lagoon Mojito",
+              "price": 180
+            },
+            {
+              "name": "Lime Mojito",
+              "price": 180
+            },
+            {
+              "name": "Watermelon Mojito",
+              "price": 180
+            },
+            {
+              "name": "Shirley Temple",
+              "price": 300
+            },
+            {
+              "name": "Bob Marley Mocktail",
+              "price": 300
+            },
+            {
+              "name": "Sunrise Mocktail",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "name": "Lemonades",
+          "items": [
+            {
+              "name": "Passion Mint Lemonade",
+              "price": 300
+            },
+            {
+              "name": "Strawberry Lemonade",
+              "price": 300
+            },
+            {
+              "name": "Tropical Mint Lemonade",
+              "price": 300
+            }
+          ]
+        },
+        {
+          "name": "Hot Beverages",
+          "items": [
+            {
+              "name": "Tea / Coffee / Chocolate",
+              "price": 100
+            },
+            {
+              "name": "Hot Dawa",
+              "price": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "sections": [
+        {
+          "name": "Milkshakes",
+          "items": [
+            {
+              "name": "KitKat Shake",
+              "price": 450
+            },
+            {
+              "name": "Blueberry Shake",
+              "price": 400
+            },
+            {
+              "name": "Vanilla Shake",
+              "price": 350
+            },
+            {
+              "name": "Oreo Shake",
+              "price": 400
+            },
+            {
+              "name": "Strawberry Shake",
+              "price": 400
+            }
+          ]
+        },
+        {
+          "name": "Ice Cream & Sundaes",
+          "items": [
+            {
+              "name": "Rainbow Explosion",
+              "price": 450,
+              "description": "Strawberry, vanilla, chocolate scoops + ice cream stick, chocolate chips, M&Ms, wafers, strawberry sauce, sprinkles"
+            },
+            {
+              "name": "Brain Freeze (Platter for Two)",
+              "price": 650,
+              "description": "Strawberry, vanilla, blueberry & chocolate scoops + ice cream stick, M&Ms, KitKat, Oreos, chocolate chips, Skittles & sprinkles",
+              "serves": 2
+            }
+          ]
+        },
+        {
+          "name": "Cakes",
+          "items": [
+            {
+              "name": "White / Black Forest Slice",
+              "price": 450
+            },
+            {
+              "name": "Cake Slice + Ice Cream",
+              "price": 550,
+              "tag": "New"
+            },
+            {
+              "name": "1kg Cake",
+              "price": 1500,
+              "description": "Free custom message"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar",
+      "name": "Bar",
+      "ageRestricted": true,
+      "note": "Happy hour 4PM-9PM. Free chaser with every mzinga.",
+      "sections": [
+        {
+          "name": "Cocktails",
+          "items": [
+            {
+              "name": "Story za Jaba",
+              "price": 450,
+              "description": "Vodka, rum, herbal liqueur, pineapple juice, lime and mint"
+            },
+            {
+              "name": "Red Flag",
+              "price": 550,
+              "description": "Vodka, gin, cranberry juice, lime juice and fresh mint leaves"
+            },
+            {
+              "name": "Whiskey Shake",
+              "price": 600,
+              "description": "Vanilla milkshake, chocolate and whiskey shots"
+            },
+            {
+              "name": "Text my Ex",
+              "price": 550,
+              "description": "Tequila, gin, rum, grenadine syrup, orange juice, orange slice and mint leaves"
+            },
+            {
+              "name": "Long Island",
+              "price": 600,
+              "description": "Tequila, rum, gin, vodka, lime juice, tonic water and coke"
+            }
+          ]
+        },
+        {
+          "name": "Beer Cans",
+          "items": [
+            {
+              "name": "Gordons Pink Can",
+              "price": 350
+            },
+            {
+              "name": "Manyatta",
+              "price": 380
+            },
+            {
+              "name": "Kenya Origins (K.O)",
+              "price": 380
+            },
+            {
+              "name": "Whitecap",
+              "price": 350
+            },
+            {
+              "name": "Guinness / Smooth",
+              "price": 350
+            },
+            {
+              "name": "Smirnoff",
+              "price": 350
+            },
+            {
+              "name": "Tusker Cider",
+              "price": 400
+            },
+            {
+              "name": "Heineken",
+              "price": 450
+            },
+            {
+              "name": "Jinro Soju",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "name": "Wines",
+          "items": [
+            {
+              "name": "Wine Glass",
+              "price": 350
+            },
+            {
+              "name": "Wine Bottle",
+              "price": 1500
+            }
+          ]
+        },
+        {
+          "name": "Shots & Mzingas",
+          "sizes": [
+            "Shot",
+            "Mzinga"
+          ],
+          "items": [
+            {
+              "name": "KC Pineapple/Lime",
+              "prices": [
+                50,
+                1500
+              ]
+            },
+            {
+              "name": "Captain Morgan",
+              "prices": [
+                100,
+                1650
+              ]
+            },
+            {
+              "name": "Viceroy",
+              "prices": [
+                100,
+                1950
+              ]
+            },
+            {
+              "name": "Smirnoff Vodka",
+              "prices": [
+                100,
+                1950
+              ]
+            },
+            {
+              "name": "Gilbeys",
+              "prices": [
+                100,
+                1900
+              ]
+            },
+            {
+              "name": "Gordons Pink",
+              "prices": [
+                150,
+                2750
+              ]
+            },
+            {
+              "name": "Jose Cuervo",
+              "prices": [
+                200,
+                2950
+              ]
+            },
+            {
+              "name": "Jägermeister",
+              "prices": [
+                200,
+                3250
+              ]
+            },
+            {
+              "name": "J Walker Black",
+              "prices": [
+                250,
+                3950
+              ]
+            },
+            {
+              "name": "Jack Daniels",
+              "prices": [
+                250,
+                3750
+              ]
+            },
+            {
+              "name": "Jameson",
+              "prices": [
+                250,
+                2950
+              ],
+              "tag": "Limited offer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
