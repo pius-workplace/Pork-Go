@@ -275,7 +275,7 @@ const STORIES = [
   {
     quote:
       "Generous portions, fair prices and the dry fry pork is the one. We came back the next week with more people.",
-    name: "Sample guest",
+    name: "Denis Pius",
     role: "Braidwood House",
   },
   {

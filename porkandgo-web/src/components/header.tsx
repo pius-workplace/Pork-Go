@@ -8,6 +8,7 @@ import { BRANCHES, PHONE_DISPLAY, PHONE_TEL, getBranch, isOpenNow, type BranchId
 import { IconBag, IconChevron, IconClose, IconMenu, IconPin } from "./icons";
 
 const NAV = [
+  { href: "/", label: "Home" },
   { href: "/menu", label: "Menu" },
   { href: "/menu#order", label: "Order Online" },
   { href: "/explore", label: "Explore" },
@@ -165,12 +166,12 @@ export function Header() {
             <img src="/brand/logo-on-dark.svg" alt="Pork & Go, we got the meats" width={150} height={62} className="h-11 w-auto sm:h-12" />
           </Link>
 
-          <ul className="ml-6 hidden items-center gap-1 lg:flex">
+          <ul className="ml-6 hidden items-center gap-1 xl:flex">
             {NAV.map((n) => (
               <li key={n.href}>
                 <Link
                   href={n.href}
-                  className={`rounded-full px-3.5 py-2 text-[0.95rem] font-medium transition hover:bg-white/5 hover:text-white ${
+                  className={`whitespace-nowrap rounded-full px-3.5 py-2 text-[0.95rem] font-medium transition hover:bg-white/5 hover:text-white ${
                     pathname === n.href ? "text-flame" : "text-bone/85"
                   }`}
                 >
@@ -184,7 +185,7 @@ export function Header() {
                 aria-expanded={pagesOpen}
                 onClick={() => setPagesOpen((o) => !o)}
                 onMouseEnter={() => setPagesOpen(true)}
-                className="flex items-center gap-1 rounded-full px-3.5 py-2 text-[0.95rem] font-medium text-bone/85 transition hover:bg-white/5"
+                className="flex items-center gap-1 whitespace-nowrap rounded-full px-3.5 py-2 text-[0.95rem] font-medium text-bone/85 transition hover:bg-white/5"
               >
                 Pages <IconChevron size={14} className={`transition ${pagesOpen ? "rotate-180" : ""}`} />
               </button>
@@ -228,7 +229,7 @@ export function Header() {
             </Link>
             <button
               type="button"
-              className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/15 lg:hidden"
+              className="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 ring-1 ring-white/15 xl:hidden"
               onClick={() => setMenuOpen(true)}
               aria-label="Open menu"
               aria-expanded={menuOpen}
@@ -241,7 +242,7 @@ export function Header() {
 
       {/* Mobile curtain menu */}
       <div
-        className="fixed inset-0 z-[60] bg-charcoal transition-[clip-path] duration-700 ease-[var(--ease-in-out-soft)] lg:hidden"
+        className="fixed inset-0 z-[60] bg-charcoal transition-[clip-path] duration-700 ease-[var(--ease-in-out-soft)] xl:hidden"
         style={{ clipPath: menuOpen ? "inset(0 0 0 0)" : "inset(0 0 100% 0)" }}
         aria-hidden={!menuOpen}
         inert={!menuOpen}

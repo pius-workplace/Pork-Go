@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { useStore } from "./providers";
 import { BRANCHES, PHONE_DISPLAY, PHONE_TEL, SOCIALS, getBranch, whatsappLink } from "@/lib/site";
-import { IconCalendar, IconFacebook, IconInstagram, IconPhone, IconPin, IconTikTok, IconWhatsApp } from "./icons";
+import { IconCalendar, IconFacebook, IconInstagram, IconPhoneSolid, IconPin, IconTikTok, IconWhatsApp } from "./icons";
 
 const SOCIAL_ICON = { tiktok: IconTikTok, instagram: IconInstagram, facebook: IconFacebook };
 
@@ -139,6 +139,7 @@ export function Footer() {
           <div>
             <p className="kicker text-glow">Company</p>
             <ul className="mt-3 space-y-2 text-bone/75">
+              <li><Link href="/" className="hover:text-bone">Home</Link></li>
               <li><Link href="/about" className="hover:text-bone">About us</Link></li>
               <li><Link href="/explore" className="hover:text-bone">Explore videos and photos</Link></li>
               <li><Link href="/offers" className="hover:text-bone">Offers and events</Link></li>
@@ -151,8 +152,8 @@ export function Footer() {
             <ul className="mt-3 space-y-3 text-bone/80">
               <li>
                 <a href={whatsappLink("Hi Pork & Go!")} target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 hover:text-bone">
-                  <span className="grid h-10 w-10 place-items-center rounded-full bg-[#25D366]/15 text-[#25D366] transition group-hover:bg-[#25D366] group-hover:text-[#06210f]">
-                    <IconWhatsApp size={19} />
+                  <span className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.07] ring-1 ring-white/15 transition group-hover:-translate-y-0.5">
+                    <IconWhatsApp size={22} className="text-[#25D366]" />
                   </span>
                   <span>
                     <span className="block text-xs text-bone/50">WhatsApp</span>
@@ -162,8 +163,8 @@ export function Footer() {
               </li>
               <li>
                 <a href={`tel:${PHONE_TEL}`} className="group flex items-center gap-3 hover:text-bone">
-                  <span className="grid h-10 w-10 place-items-center rounded-full bg-flame/15 text-flame transition group-hover:bg-flame group-hover:text-[#1a0b04]">
-                    <IconPhone size={18} />
+                  <span className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.07] ring-1 ring-white/15 transition group-hover:-translate-y-0.5">
+                    <IconPhoneSolid size={20} className="text-bone" />
                   </span>
                   <span>
                     <span className="block text-xs text-bone/50">Call us</span>

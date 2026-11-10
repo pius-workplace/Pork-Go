@@ -1,0 +1,11 @@
+{
+  "name": "pork-and-go-workspace",
+  "private": true,
+  "description": "Workspace wrapper: lets npm run dev/build/start/lint work from this folder. The app lives in ./porkandgo-web.",
+  "scripts": {
+    "dev": "npm --prefix porkandgo-web run dev",
+    "build": "npm --prefix porkandgo-web run build",
+    "start": "npm --prefix porkandgo-web run start",
+    "lint": "npm --prefix porkandgo-web run lint"
+  }
+}

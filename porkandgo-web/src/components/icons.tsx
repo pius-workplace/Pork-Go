@@ -22,6 +22,12 @@ export const IconPhone = ({ size, ...p }: P) => (
     <path d="M5 3h3l2 5-2.5 1.5a11 11 0 0 0 7 7L16 14l5 2v3a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2Z" />
   </svg>
 );
+/** Solid handset, the familiar "call" glyph (Material Icons, Apache 2.0). */
+export const IconPhoneSolid = ({ size = 20, ...p }: P) => (
+  <svg {...base(size)} {...p} fill="currentColor" stroke="none">
+    <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z" />
+  </svg>
+);
 export const IconPin = ({ size, ...p }: P) => (
   <svg {...base(size)} {...p}>
     <path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" />
